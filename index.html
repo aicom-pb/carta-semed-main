@@ -3,1195 +3,1114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carta de Serviço</title>
+    <title>Carta de Serviço - Pimenta Bueno</title>
     <meta name="description" content="Carta de Serviços da Prefeitura Municipal de Pimenta Bueno - RO. Informações sobre departamentos, competências e atendimento ao cidadão.">
     <meta name="author" content="Prefeitura de Pimenta Bueno">
     
-    <link rel="icon" type="image/png" href="assets/images/brasao.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <meta property="og:title" content="Carta de Serviços">
-    <meta property="og:description" content="Carta de Serviços da Prefeitura Municipal de Pimenta Bueno - RO">
-    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
     
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-    
-    <link rel="stylesheet" href="styles.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-<header class="header">
-    <div class="header-background-image"></div>
-    <div class="container">
-        <div class="header-content">
-            <div class="header-title-section">
-                <div class="header-icon-title">
-                    <div>
-                        <h1>PREFEITURA DO MUNICÍPIO DE PIMENTA BUENO</h1>
-                        <p class="header-subtitle">CARTA DE SERVIÇO</p>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+<div class="logo-container">
+                </div>
+                
+                <div class="header-text">
+                    <h1>PREFEITURA DE PIMENTA BUENO</h1>
+                    <p class="header-subtitle">CARTA DE SERVIÇOS SEMED</p>
+                </div>
+                
+                <div class="social-buttons">
+                    <a href="https://pimentabueno.ro.gov.br/site/" target="_blank" class="social-button site">
+                        <i class="fas fa-globe"></i>
+                        <span>Site Oficial</span>
+                    </a>
+                    <a href="https://www.facebook.com/PrefeituradePimentaBueno" target="_blank" class="social-button facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/prefeiturapb/" target="_blank" class="social-button instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.youtube.com/@PrefeituradePimentaBueno" target="_blank" class="social-button youtube">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-title">ENDEREÇO</div>
+                            <div class="contact-value">
+                                <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                    Av. Castelo Branco, 1046 - Pimenta Bueno - RO, 76970-000
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="header-secretaria-logo">
-                    <img src="assets/images/logo_secretaria.png" alt="Logo da Secretaria" style="width: 184px; height: 92px;">
-                </div>
-
-                <div class="main-cta">
-                    <div class="cta-buttons">
-                        <a href="https://pimentabueno.ro.gov.br/site/" target="_blank" class="cta-button">
-                            <img src="assets/images/site.svg" alt="Ícone Site" class="cta-svg-icon">
-                        </a>
-                        <a href="https://www.facebook.com/PrefeituradePimentaBueno" target="_blank" class="cta-button">
-                            <img src="assets/images/facebook.svg" alt="Ícone Facebook" class="cta-svg-icon">
-                        </a>
-                        <a href="https://www.instagram.com/prefeiturapb/" target="_blank" class="cta-button">
-                            <img src="assets/images/instagram.svg" alt="Ícone Instagram" class="cta-svg-icon">
-                        </a>
-                        <a href="https://www.youtube.com/@PrefeituradePimentaBueno" target="_blank" class="cta-button">
-                            <img src="assets/images/youtube.svg" alt="Ícone YouTube" class="cta-svg-icon">
-                        </a>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-title">WHATSAPP</div>
+                            <div class="contact-value">
+                                <a href="https://wa.me/5569981162254" target="_blank">(69) 98116-2254 (Atendimento)</a>
+                                <a href="https://wa.me/5569981699989" target="_blank">(69) 98169-9989 (Ouvidoria)</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="contact-grid">
-                <div class="contact-item">
-                    <i data-lucide="map-pin"></i>
-                    <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-link">
-                        <span>Av. Castelo Branco, 1046 - Pimenta Bueno - RO, 76970-000</span>
-                    </a>
-                </div>
-                
-                <div class="contact-item">
-                    <a href="https://wa.me/5569981162254" target="_blank" class="whatsapp-link">
-                        <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                        <span>Balcão de Atendimento (69) 98116-2254</span>
-                    </a>
-                    <a href="https://wa.me/5569981699989" target="_blank" class="whatsapp-link">
-                        <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                        <span>Ouvidoria   (69) 98169-9989</span>
-                    </a>
-                </div>
-                
-                <div class="contact-item">
-                    <i data-lucide="mail"></i>
-                    <a href="mailto:gabinete@pimentabueno.ro.gov.br" class="mail-link">
-                        <span>gabinete@pimentabueno.ro.gov.br</span>
-                    </a>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-title">E-MAIL</div>
+                            <div class="contact-value">
+                                <a href="mailto:gabinete@pimentabueno.ro.gov.br">gabinete@pimentabueno.ro.gov.br</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
-
-    <main class="main">
+    </header>
+    
+    
+    <main class="main-content">
         <div class="container">
-            <section id="semed-sede" class="department-section">
-                <div class="department-card">
+            <h2 class="section-title">Departamentos e Serviços</h2>
+            
+            <div class="department-grid">
+                <div class="department-card" id="semed">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">SEMED: SEDE ADMINISTRATIVA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Anghrizei da Silva Nascimento</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>SEMED: SEDE ADMINISTRATIVA</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Anghrizei da Silva Nascimento</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Casemiro+de+Abreu,+237,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Casemiro de Abreu, 237, Bairro: Pioneiros, CEP: 76970-000</span>
-                                </a>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Semed+-+Secretaria+Municipal+de+Educa%C3%A7%C3%A3o/@-11.6722959,-61.1878641,68m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5006f031419:0xd2b269efa673928b!8m2!3d-11.6722069!4d-61.1878821!16s%2Fg%2F11vr95fmll?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Rua Casemiro de Abreu, 237, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981135883" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98113-5883</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569981135883" target="_blank">(69) 98113-5883</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">Segunda a sexta-feira das 7:30 às 13:30</p>
+                                </div>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
-                            <h4>Atribuições do Secretário:</h4>
-                            <ul class="competencies-list">
-                                <li>Administrar, avaliar e controlar o Sistema de Ensino Municipal, promovendo sua expansão qualitativa e atualização permanente;</li>
-                                <li>Dispor sobre normas complementares para o aperfeiçoamento permanente do Sistema Municipal de Ensino;</li>
-                                <li>Promover o intercâmbio de informações e de assistência técnica bilateral, com instituições públicas e privadas;</li>
-                                <li>Definir as diretrizes para a elaboração do Plano Municipal de Ensino;</li>
-                                <li>Organizar, administrar, controlar e avaliar a ação municipal no campo da educação;</li>
-                                <li>Articular-se com Órgãos dos Governos Federal e Estadual para o desenvolvimento de políticas educacionais;</li>
-                                <li>Implantar e implementar políticas públicas que assegurem o aperfeiçoamento do ensino e da aprendizagem;</li>
-                                <li>Estudar, pesquisar e avaliar os recursos financeiros para o custeio e investimento no sistema educacional;</li>
-                                <li>Integrar suas ações às atividades culturais e esportivas do município;</li>
-                                <li>Assegurar aos alunos as condições necessárias de acesso, permanência e sucesso escolar.</li>
-                            </ul>
                             <h4>Competências da Secretaria Municipal de Educação:</h4>
                             <ul class="competencies-list">
-                                <li>A formulação, planejamento, organização, controle e implementação da política educacional do Município;</li>
-                                <li>A elaboração e implementação de programas, projetos e atividades educacionais;</li>
-                                <li>A formulação do Plano Municipal de Educação;</li>
-                                <li>A integração das ações do Município visando a erradicação do analfabetismo;</li>
-                                <li>A administração e a execução das atividades de educação especial, infantil e fundamental;</li>
-                                <li>O acompanhamento e o controle da aplicação dos recursos financeiros;</li>
-                                <li>A gerência dos recursos destinados à educação, através do FUNDEB;</li>
-                                <li>O diagnóstico permanente das características e qualificações do magistério;</li>
+                                <li>A formulação, planejamento, organização, controle e implementação da política educacional do Município.</li>
+                                <li>A elaboração e implementação de programas, projetos e atividades educacionais.</li>
+                                <li>A formulação do Plano Municipal de Educação.</li>
+                                <li>A integração das ações do Município visando a erradicação do analfabetismo.</li>
+                                <li>A administração e a execução das atividades de educação especial, infantil e fundamental.</li>
+                                <li>O acompanhamento e o controle da aplicação dos recursos financeiros.</li>
+                                <li>A gerência dos recursos destinados à educação, através do FUNDEB.</li>
+                                <li>O diagnóstico permanente das características e qualificações do magistério.</li>
                                 <li>A coordenação, a supervisão e o controle das ações do Município relativas à educação.</li>
+                            </ul>
+                            <h4>Atribuições do Secretário:</h4>
+                            <ul class="competencies-list">
+                                <li>Administrar, avaliar e controlar o Sistema de Ensino Municipal.</li>
+                                <li>Dispor sobre normas complementares para o aperfeiçoamento permanente do Sistema Municipal de Ensino.</li>
+                                <li>Promover o intercâmbio de informações e de assistência técnica com instituições públicas e privadas.</li>
+                                <li>Definir as diretrizes para a elaboração do Plano Municipal de Ensino.</li>
+                                <li>Organizar, administrar, controlar e avaliar a ação municipal no campo da educação.</li>
+                                <li>Articular-se com Órgãos dos Governos Federal e Estadual para o desenvolvimento de políticas educacionais.</li>
+                                <li>Implantar e implementar políticas públicas que assegurem o aperfeiçoamento do ensino e da aprendizagem.</li>
+                                <li>Estudar, pesquisar e avaliar os recursos financeiros para o custeio e investimento no sistema educacional.</li>
+                                <li>Integrar suas ações às atividades culturais e esportivas do município.</li>
+                                <li>Assegurar aos alunos as condições necessárias de acesso, permanência e sucesso escolar.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="central-pedagogica" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="central-pedagogica">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CENTRAL PEDAGÓGICA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Cleide Siqueira Silva</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>CENTRAL PEDAGÓGICA</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Cleide Siqueira Silva</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Casemiro+de+Abreu,+237,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Casemiro de Abreu, 237, Bairro: Pioneiros, CEP: 76970-000</span>
-                                </a>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Semed+-+Secretaria+Municipal+de+Educa%C3%A7%C3%A3o/@-11.6722959,-61.1878641,68m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5006f031419:0xd2b269efa673928b!8m2!3d-11.6722069!4d-61.1878821!16s%2Fg%2F11vr95fmll?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Rua Casemiro de Abreu, 237, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569999740694" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 99974-0694</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569999740694" target="_blank">(69) 99974-0694</a>
+                                    <a href="https://wa.me/5569981699981" target="_blank">(69) 98169-9981</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699981" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9981</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">Segunda a sexta-feira das 7:30 às 13:30</p>
+                                </div>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Coordenação Pedagógica, Educação Infantil e Ensino Fundamental I e II;</li>
-                                <li>Educação Especial, Coordenação escolar Urbana e Rural;</li>
-                                <li>Equipe de formação e capacitação aos docentes;</li>
-                                <li>Execução e acompanhamento de Programas e Projetos;</li>
-                                <li>Elaboração e planejamentos Pedagógicos;</li>
-                                <li>Desenvolvimento de programas e projetos na área da educação em consonância com a LDB Lei n° 9394/96;</li>
-                                <li>Coordenar, acompanhar, controlar e avaliar os programas, projetos e convênios relativos às atividades educacionais;</li>
-                                <li>Organização Curricular do Ensino Infantil e Fundamental;</li>
-                                <li>Estudo e reestruturação do Projeto Pedagógico;</li>
-                                <li>Elaboração de normas operacionais para as unidades de ensino;</li>
-                                <li>Estruturação e organização do Calendário Escolar;</li>
-                                <li>Formação Continuada e orientação os profissionais da educação;</li>
+                                <li>Coordenação Pedagógica, Educação Infantil e Ensino Fundamental I e II.</li>
+                                <li>Educação Especial, Coordenação escolar Urbana e Rural.</li>
+                                <li>Equipe de formação e capacitação aos docentes.</li>
+                                <li>Execução e acompanhamento de Programas e Projetos.</li>
+                                <li>Elaboração e planejamentos Pedagógicos.</li>
+                                <li>Desenvolvimento de programas e projetos na área da educação em consonância com a LDB Lei n° 9394/96.</li>
+                                <li>Coordenar, acompanhar, controlar e avaliar os programas, projetos e convênios relativos às atividades educacionais.</li>
+                                <li>Organização Curricular do Ensino Infantil e Fundamental.</li>
+                                <li>Estudo e reestruturação do Projeto Pedagógico.</li>
+                                <li>Elaboração de normas operacionais para as unidades de ensino.</li>
+                                <li>Estruturação e organização do Calendário Escolar.</li>
+                                <li>Formação Continuada e orientação os profissionais da educação.</li>
                                 <li>Monitoramento e promoção de campanhas de alfabetização, letramento e leitura.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="central-administrativa" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="central-administrativa">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CENTRAL ADMINISTRATIVA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>David Silva Neves</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-file-invoice"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>CENTRAL ADMINISTRATIVA</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>David Silva Neves</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Casemiro+de+Abreu,+237,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Casemiro de Abreu, 237, Bairro: Pioneiros, CEP: 76970-000</span>
-                                </a>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Semed+-+Secretaria+Municipal+de+Educa%C3%A7%C3%A3o/@-11.6722959,-61.1878641,68m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5006f031419:0xd2b269efa673928b!8m2!3d-11.6722069!4d-61.1878821!16s%2Fg%2F11vr95fmll?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Rua Casemiro de Abreu, 237, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569999074079" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 99907-4079</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569999074079" target="_blank">(69) 99907-4079</a>
+                                    <a href="https://wa.me/5569981135883" target="_blank">(69) 98113-5883</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981135883" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98113-5883</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">Segunda a sexta-feira das 7:30 às 13:30</p>
+                                </div>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Promover abertura de processos e dar andamento nos processos;</li>
-                                <li>Responder os processos quando encaminhados para esta SEMED;</li>
-                                <li>Finalizar processos;</li>
-                                <li>Elaborar Pedidos de Solicitação de Despesas, Planos de Trabalho, Termo de Referência;</li>
-                                <li>Elaborar Pedidos de Empenho;</li>
-                                <li>Elaborar Pedidos de Pagamento e Liquidação de Empenho;</li>
-                                <li>Elaborar Ofícios, Planos de Trabalho e outros documentos inerentes aos processos de Convênios;</li>
-                                <li>Elaborar Prestação de Contas de Convênios Estaduais, Diárias e adiantamento de Fundos;</li>
-                                <li>Serviço de interlocução com outros órgãos, setores e fornecedores;</li>
-                                <li>Atendimento ao público, presencial, online ou via outros meios de comunicação;</li>
-                                <li>Receber e responder e-mails encaminhados a esta SEMED;</li>
-                                <li>Utilizar, acompanhar, inserir documentos em Sistemas SIMED, Plataforma+Brasil e SIGARP;</li>
+                                <li>Promover abertura de processos e dar andamento nos processos.</li>
+                                <li>Responder os processos quando encaminhados para a SEMED.</li>
+                                <li>Finalizar processos.</li>
+                                <li>Elaborar Pedidos de Solicitação de Despesas, Planos de Trabalho, Termo de Referência.</li>
+                                <li>Elaborar Pedidos de Empenho.</li>
+                                <li>Elaborar Pedidos de Pagamento e Liquidação de Empenho.</li>
+                                <li>Elaborar Ofícios, Planos de Trabalho e outros documentos inerentes aos processos de Convênios.</li>
+                                <li>Elaborar Prestação de Contas de Convênios Estaduais, Diárias e adiantamento de Fundos.</li>
+                                <li>Serviço de interlocução com outros órgãos, setores e fornecedores.</li>
+                                <li>Atendimento ao público, presencial, online ou via outros meios de comunicação.</li>
+                                <li>Receber e responder e-mails encaminhados a esta SEMED.</li>
+                                <li>Utilizar, acompanhar, inserir documentos em Sistemas SIMED, Plataforma+Brasil e SIGARP.</li>
                                 <li>Comandar todos os Departamentos e Divisões Administrativas da SEMED.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="alimentacao-escolar" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="alimentacao-escolar">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-utensils"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">DEPARTAMENTO DE ALIMENTAÇÃO ESCOLAR</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Francisco Pereira da Silva / Rosineia Landim de Mira Leite</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>DEPARTAMENTO DE ALIMENTAÇÃO ESCOLAR</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Francisco Pereira da Silva / Rosineia Landim de Mira Leite</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Casemiro+de+Abreu,+237,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Casemiro de Abreu, 237, Bairro: Pioneiros, CEP: 76970-000</span>
-                                </a>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Semed+-+Secretaria+Municipal+de+Educa%C3%A7%C3%A3o/@-11.6722959,-61.1878641,68m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5006f031419:0xd2b269efa673928b!8m2!3d-11.6722069!4d-61.1878821!16s%2Fg%2F11vr95fmll?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Rua Casemiro de Abreu, 237, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569999774879" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 99977-4879</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569999774879" target="_blank">(69) 99977-4879</a>
+                                    <a href="https://wa.me/5569981699255" target="_blank">(69) 98169-9255</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699255" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9255</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">Segunda a sexta-feira das 7:30 às 13:30</p>
+                                </div>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Elaboração de cardápios escolares específicos para cada modalidade de ensino;</li>
-                                <li>Elaboração de cardápios para patologias específicas de alunos;</li>
-                                <li>Elaboração de lista de compras da alimentação escolar, utensílios de cozinha e EPI's;</li>
-                                <li>Confecção de fichas técnicas de preparo dos alimentos;</li>
-                                <li>Manual de boas práticas de fabricação;</li>
-                                <li>Capacitação para cozinheiras, professores e coordenadores escolares;</li>
-                                <li>Elaborar e auxiliar ações de Educação Alimentar e Nutricional;</li>
-                                <li>Supervisionar e orientar todo processo de preparação alimentação escolar;</li>
-                                <li>Realizar testes de aceitabilidade de cardápios;</li>
-                                <li>Orientar e supervisionar as atividades de higienização de ambientes;</li>
-                                <li>Avaliação antropométrica dos alunos;</li>
-                                <li>Assessorar o conselho de alimentação escolar – CAE;</li>
-                                <li>Assessorar o processo de chamada pública da agricultura familiar;</li>
+                                <li>Elaboração de cardápios escolares específicos para cada modalidade de ensino.</li>
+                                <li>Elaboração de cardápios para patologias específicas de alunos.</li>
+                                <li>Elaboração de lista de compras da alimentação escolar, utensílios de cozinha e EPI's.</li>
+                                <li>Confecção de fichas técnicas de preparo dos alimentos.</li>
+                                <li>Manual de boas práticas de fabricação.</li>
+                                <li>Capacitação para cozinheiras, professores e coordenadores escolares.</li>
+                                <li>Elaborar e auxiliar ações de Educação Alimentar e Nutricional.</li>
+                                <li>Supervisionar e orientar todo processo de preparação alimentação escolar.</li>
+                                <li>Realizar testes de aceitabilidade de cardápios.</li>
+                                <li>Orientar e supervisionar as atividades de higienização de ambientes.</li>
+                                <li>Avaliação antropométrica dos alunos.</li>
+                                <li>Assessorar o conselho de alimentação escolar – CAE.</li>
+                                <li>Assessorar o processo de chamada pública da agricultura familiar.</li>
                                 <li>Supervisionar e orientar a logística de entrega de gêneros alimentícios.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="transporte-escolar" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="transporte-escolar">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bus"><path d="M8 6v6"/><path d="M15 6v6"/><path d="M2 12h19.6"/><path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2v-2H18v6Z"/><path d="M4 18H1s-.5-1.7-.8-2.8c-.1-.4-.2-.8-.2-1.2v-2h4v6Z"/><circle cx="7" cy="18" r="2"/><path d="M9 18h5"/><circle cx="16" cy="18" r="2"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">DEPARTAMENTO DE TRANSPORTE ESCOLAR</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Hederson Mota</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-bus-alt"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>DEPARTAMENTO DE TRANSPORTE ESCOLAR</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Hederson Mota</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Casemiro+de+Abreu,+237,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Casemiro de Abreu, 237, Bairro: Pioneiros, CEP: 76970-000</span>
-                                </a>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Semed+-+Secretaria+Municipal+de+Educa%C3%A7%C3%A3o/@-11.6722959,-61.1878641,68m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5006f031419:0xd2b269efa673928b!8m2!3d-11.6722069!4d-61.1878821!16s%2Fg%2F11vr95fmll?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Rua Casemiro de Abreu, 237, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981567074" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98156-7074</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569981567074" target="_blank">(69) 98156-7074</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <div class="contact-value-card">
+                                    <p class="horario-atendimento">Segunda a sexta-feira das 7:30 às 13:30</p>
+                                </div>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Coordenar o Transporte Escolar Rural para os alunos das modalidades: Educação Infantil acima de 4 anos, Ensino Fundamental I, Ensino Fundamental II e Ensino Médio;</li>
-                                <li>Fiscalizar os recursos do Programa do Governo Federal PNATE;</li>
-                                <li>Fiscalizar o Transporte Escolar "in loco" aferindo periodicamente os trajetos;</li>
-                                <li>Elaboração de planilhas de pagamentos do Transporte Escolar locados;</li>
-                                <li>Pesquisa de satisfação e acompanhamento das aplicações dos convênios;</li>
-                                <li>Planejar e elaborar reuniões com motoristas e monitores do Transporte Escolar;</li>
-                                <li>Acompanhar os veículos próprios nas oficinas e fiscalizar os abastecimentos;</li>
-                                <li>Realizar periodicamente serviços de fiscalização nos veículos quanto às normas de segurança;</li>
-                                <li>Controlar e gerenciar o contrato firmado entre o município e empresas contratadas;</li>
-                                <li>Atender a pais de alunos e professores sobre problemas no transporte;</li>
-                                <li>Controlar os mapas de quilometragem diários;</li>
+                                <li>Coordenar o Transporte Escolar Rural para os alunos das modalidades: Educação Infantil acima de 4 anos, Ensino Fundamental I, Ensino Fundamental II e Ensino Médio.</li>
+                                <li>Fiscalizar os recursos do Programa do Governo Federal PNATE.</li>
+                                <li>Fiscalizar o Transporte Escolar "in loco" aferindo periodicamente os trajetos.</li>
+                                <li>Elaboração de planilhas de pagamentos do Transporte Escolar locados.</li>
+                                <li>Pesquisa de satisfação e acompanhamento das aplicações dos convênios.</li>
+                                <li>Planejar e elaborar reuniões com motoristas e monitores do Transporte Escolar.</li>
+                                <li>Acompanhar os veículos próprios nas oficinas e fiscalizar os abastecimentos.</li>
+                                <li>Realizar periodicamente serviços de fiscalização nos veículos quanto às normas de segurança.</li>
+                                <li>Controlar e gerenciar o contrato firmado entre o município e empresas contratadas.</li>
+                                <li>Atender a pais de alunos e professores sobre problemas no transporte.</li>
+                                <li>Controlar os mapas de quilometragem diários.</li>
                                 <li>Acompanhar as inspeções semestrais nos veículos que prestam serviço.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
-            <!-- ESCOLAS MUNICIPAIS - ZONA URBANA -->
-            <section id="escola-lairce" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-school"><path d="M14 22v-4a2 2 0 1 0-4 0v4"/><path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2"/><path d="M18 5v17"/><path d="m4 6 8-4 8 4"/><path d="M6 5v17"/><circle cx="12" cy="9" r="2"/></svg>
+            <section class="schools-section">
+                <div class="container">
+                    <h2 class="section-title">Unidades Escolares</h2>
+                    <div class="schools-grid">
+                        <div class="department-card" id="escolalairce">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>E.M.E.I.E.F. PROFESSORA LAIRCE SANTIAGO MAINA</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Adriana Bonin Santana (Diretora)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">E.M.E.I.E.F. PROFESSORA LAIRCE SANTIAGO MAINA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Adriana Bonin Santana (Diretora)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://www.google.com/maps/place/Escola+Professora+Lairce+Santiago+Maina/@-11.6851762,-61.1782156,176m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5cedddc8277:0xb48c0f3e598742ce!8m2!3d-11.6851501!4d-61.1782614!16s%2Fg%2F1tfkrw3y?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                                Av. Riachuelo, 835, Bairro: BNH
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981699993" target="_blank">(69) 98169-9993</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:escolalairce@hotmail.com">escolalairce@hotmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569996046423" target="_blank">Janeth Christina F.S. Caires - (69) 99604-6423</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Av.+Riachuelo,+835,+BNH,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Av. Riachuelo, 835, Bairro: BNH</span>
-                                </a>
+                        
+                        <div class="department-card" id="escolanairbarros">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>E.M.E.I.E.F. NAIR BARROS</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Roberto de Souza (Diretor)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699993" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9993</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:escolalairce@hotmail.com" class="mail-link">
-                                    <span>escolalairce@hotmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Adriana Bonin Santana - (69) 99970-9866</li>
-                                <li><strong>Vice-Diretora:</strong> Janeth Christina F.S. Caires - (69) 99604-6423</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="escola-nair-barros" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-school"><path d="M14 22v-4a2 2 0 1 0-4 0v4"/><path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2"/><path d="M18 5v17"/><path d="m4 6 8-4 8 4"/><path d="M6 5v17"/><circle cx="12" cy="9" r="2"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">E.M.E.I.E.F. NAIR BARROS</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Roberto de Souza (Diretor)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://www.google.com/maps/place/Escola+Nair+Barros/@-11.6854727,-61.1652392,96m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5c1f3b28d67:0xc36650f41418585c!8m2!3d-11.6854096!4d-61.1651566!16s%2Fg%2F11cp7rf8m2?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                                Rua Padre Feijó, 1522, Bairro: Vila Nova
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981699983" target="_blank">(69) 98169-9983</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:escolanairbarros-pb@hotmail.com">escolanairbarros-pb@hotmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569999796670" target="_blank">Eunice dos Santos Gomes - (69) 99979-6670</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Padre+Feijó,+1522,+Vila+Nova,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Padre Feijó, 1522, Bairro: Vila Nova</span>
-                                </a>
+                        
+                        <div class="department-card" id="escolacrivelli">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>E.M.E.I.E.F. Mª DA CONCEIÇÃO RAMOS DO AMARAL CRIVELLI</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Claudinéia Gimenes (Diretora)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699983" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9983</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:escolanairbarros-pb@hotmail.com" class="mail-link">
-                                    <span>escolanairbarros-pb@hotmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretor:</strong> Roberto de Souza - (69) 99911-1901</li>
-                                <li><strong>Vice-Diretora:</strong> Eunice dos Santos Gomes - (69) 99979-6670</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="escola-crivelli" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-school"><path d="M14 22v-4a2 2 0 1 0-4 0v4"/><path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2"/><path d="M18 5v17"/><path d="m4 6 8-4 8 4"/><path d="M6 5v17"/><circle cx="12" cy="9" r="2"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">E.M.E.I.E.F. Mª DA CONCEIÇÃO RAMOS DO AMARAL CRIVELLI</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Claudinéia Gimenes (Diretora)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://www.google.com/maps/place/Escola+Maria+Concei%C3%A7%C3%A3o+Ramos+Do+Amaral+Crivelli/@-11.674992,-61.1938792,117m/data=!3m1!1e3!4m6!3m5!1s0x93b7e4299bfa7a6d:0x9937d6b56d31d39e!8m2!3d-11.6749982!4d-61.1938478!16s%2Fg%2F11f0l41_xp?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                                Rua Princesa Isabel, 355, Bairro: Jardim Das Oliveiras
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981699254" target="_blank">(69) 98169-9254</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:crivelliescola@gmail.com">crivelliescola@gmail.com</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Princesa+Isabel,+355,+Jardim+Das+Oliveiras,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Princesa Isabel, 355, Bairro: Jardim Das Oliveiras</span>
-                                </a>
+                        
+                        <div class="department-card" id="escolamariaescobar">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>E.M.E.I.E.F. MARIA JOSÉ ESCOBAR</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Noelma Guaitolini Gonçalves (Diretora)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699254" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9254</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:crivelliescola@gmail.com" class="mail-link">
-                                    <span>crivelliescola@gmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Claudinéia Gimenes - (69) 99946-1749</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="escola-maria-escobar" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-school"><path d="M14 22v-4a2 2 0 1 0-4 0v4"/><path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2"/><path d="M18 5v17"/><path d="m4 6 8-4 8 4"/><path d="M6 5v17"/><circle cx="12" cy="9" r="2"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">E.M.E.I.E.F. MARIA JOSÉ ESCOBAR</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Noelma Guaitolini Gonçalves (Diretora)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://www.google.com/maps/place/ESCOLA+MARIA+JOS%C3%89+ESCOBAR/@-11.6854484,-61.1573392,215m/data=!3m1!1e3!4m6!3m5!1s0x93b7e53c03ba4f17:0x176ba8c2f7fbc8ef!8m2!3d-11.6854094!4d-61.1570531!16s%2Fg%2F11fqqfk3g0?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                                Rua Pará C/ Belém, N.1261 – Nova Pimenta
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981565219" target="_blank">(69) 98156-5219</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:emeief.mariaescobar@gmail.com">emeief.mariaescobar@gmail.com</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Pará+C/+Belém,+1261,+Nova+Pimenta,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Pará C/ Belém, N.1261 – Nova Pimenta</span>
-                                </a>
+                        
+                        <div class="department-card" id="escolasandovalmeira">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>E.M.E.F. SANDOVAL MEIRA</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Maria Sidnéia Sanches (Diretora)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981565219" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98156-5219</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:emeief.mariaescobar@gmail.com" class="mail-link">
-                                    <span>emeief.mariaescobar@gmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Noelma Guaitolini Gonçalves - (69) 99991-2492</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="escola-sandoval" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-school"><path d="M14 22v-4a2 2 0 1 0-4 0v4"/><path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2"/><path d="M18 5v17"/><path d="m4 6 8-4 8 4"/><path d="M6 5v17"/><circle cx="12" cy="9" r="2"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">E.M.E.F. SANDOVAL MEIRA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Maria Sidnéia Sanches (Diretora)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://www.google.com/maps/place/Eeef+Sandoval+Meira/@-11.6706174,-61.1945714,176m/data=!3m1!1e3!4m6!3m5!1s0x93b7e69d4a03d0c1:0xe1383fc66f40e540!8m2!3d-11.670649!4d-61.1944526!16s%2Fg%2F1tdbxvnb?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                                Rua Fernão Dias, 275, Bairro: Pioneiros
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981726897" target="_blank">(69) 98172-6897</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:escolamunicipalsandovalmeira@gmail.com">escolamunicipalsandovalmeira@gmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569999640502" target="_blank">Daiane Fantoura de Souza Nunes - (69) 99964-0502</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Fernão+Dias,+275,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Fernão Dias, 275, Bairro: Pioneiros</span>
-                                </a>
+                        
+                        <div class="department-card" id="escolaassunta">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>E.M.E.I.E.F. ASSUNTA MARIA GIANINI FAVALEÇA</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Lourisvaldo Lisboa de Souza (Diretor)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981726897" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98172-6897</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:escolamunicipalsandovalmeira@gmail.com" class="mail-link">
-                                    <span>escolamunicipalsandovalmeira@gmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Maria Sidnéia Sanches - (69) 99997-2900</li>
-                                <li><strong>Vice-Diretora:</strong> Daiane Fantoura de Souza Nunes - (69) 99964-0502</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="escola-assunta" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-school"><path d="M14 22v-4a2 2 0 1 0-4 0v4"/><path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2"/><path d="M18 5v17"/><path d="m4 6 8-4 8 4"/><path d="M6 5v17"/><circle cx="12" cy="9" r="2"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">E.M.E.I.E.F. ASSUNTA MARIA GIANINI FAVALEÇA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Lourisvaldo Lisboa de Souza (Diretor)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://www.google.com/maps/place/Escola+Assunta+Gianini+Favale%C3%A7a/@-11.6286174,-61.1977003,176m/data=!3m1!1e3!4m6!3m5!1s0x93b7e7a1950a7e1f:0xdbdca703b5bb074d!8m2!3d-11.6287914!4d-61.1974807!16s%2Fg%2F11hz2yp1km?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                                Av: Primo Favaleça (Antiga B) N°:131 - Distrito Do Itaporanga
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981569517" target="_blank">(69) 98156-9517</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:gianini2017@outlook.com">gianini2017@outlook.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569999321505" target="_blank">Zenir Dias de Assis - (69) 99932-1505</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Av+Primo+Favaleça,+131,+Distrito+Do+Itaporanga,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Av: Primo Favaleça (Antiga B) N°:131 - Distrito Do Itaporanga</span>
-                                </a>
+                        
+                        <div class="department-card" id="escolaluizcabral">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>E.M.E.I.E.F. LUIZ CABRAL DE SOUZA - ZONA RURAL</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Eliane dos Santos Barbosa (Diretora)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981569517" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98156-9517</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:gianini2017@outlook.com" class="mail-link">
-                                    <span>gianini2017@outlook.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretor:</strong> Lourisvaldo Lisboa de Souza - (69) 98130-3119</li>
-                                <li><strong>Vice-Diretora:</strong> Zenir Dias de Assis - (69) 99932-1505</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ESCOLAS MUNICIPAIS - ZONA RURAL -->
-            <section id="escola-luiz-cabral" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trees"><path d="M10 10v.2A3 3 0 0 1 8.9 16v0H5v0a3 3 0 0 1-.9-5.8V10a3 3 0 0 1 6 0Z"/><path d="M7 16v6"/><path d="M13 19v3"/><path d="M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">E.M.E.I.E.F. LUIZ CABRAL DE SOUZA - ZONA RURAL</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Eliane dos Santos Barbosa (Diretora)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://www.google.com/maps/place/ESCOLA+LUIZ+CABRAL+DE+SOUZA/@-11.9638066,-60.9591286,1082m/data=!3m2!1e3!4b1!4m6!3m5!1s0x93b81f0bea40eb43:0xee9cbdf775d855e2!8m2!3d-11.9638119!4d-60.9565483!16s%2Fg%2F11j53n9h5x?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                                Rodovia 364 Km 155 Cx Postal Via Semed - Setor Dimba S/N° - Zona Rural
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981564837" target="_blank">(69) 98156-4837</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:esc.luiscabral@hotmail.com">esc.luiscabral@hotmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569999794860" target="_blank">Patrícia Aparecida Marques Nascimento - (69) 99979-4860</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <span>Rodovia 364 Km 155 Cx Postal Via Semec - Setor Dimba S/N° - Zona Rural</span>
+                        
+                        <div class="department-card" id="escolaemanuel">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>E.M.E.I.E.F. EMANUEL OSVALDO MOREIRA - ZONA RURAL</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Anderson de Oliveira (Diretor)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981564837" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98156-4837</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:esc.luiscabral@hotmail.com" class="mail-link">
-                                    <span>esc.luiscabral@hotmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Eliane dos Santos Barbosa - (69) 99942-7886</li>
-                                <li><strong>Vice-Diretora:</strong> Patrícia Aparecida Marques Nascimento - (69) 99979-4860</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="escola-emanuel" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trees"><path d="M10 10v.2A3 3 0 0 1 8.9 16v0H5v0a3 3 0 0 1-.9-5.8V10a3 3 0 0 1 6 0Z"/><path d="M7 16v6"/><path d="M13 19v3"/><path d="M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">E.M.E.I.E.F. EMANUEL OSVALDO MOREIRA - ZONA RURAL</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Anderson de Oliveira (Diretor)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            Rodovia 010 Km 32 Cx Postal 014 Setor Abaitará S/N° Zona Rural
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981699962" target="_blank">(69) 98169-9962</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:anderson.oliveira@edu.pimentabueno.ro.gov.br">anderson.oliveira@edu.pimentabueno.ro.gov.br</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569999762426" target="_blank">Eliara Cristina Alves - (69) 99976-2426</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <span>Rodovia 010 Km 32 Cx Postal 014 Setor Abaitará S/N° Zona Rural</span>
+                        
+                        <div class="department-card" id="escolaaguiadourada">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>ESCOLA ÁGUIA DOURADA - ZONA RURAL</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Solange Santana Santos (Diretora)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699962" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9962</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:anderson.oliveira@edu.pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>anderson.oliveira@edu.pimentabueno.ro.gov.br</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretor:</strong> Anderson de Oliveira - (69) 99979-5262</li>
-                                <li><strong>Vice-Diretora:</strong> Eliara Cristina Alves - (69) 99976-2426</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="escola-aguia-dourada" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trees"><path d="M10 10v.2A3 3 0 0 1 8.9 16v0H5v0a3 3 0 0 1-.9-5.8V10a3 3 0 0 1 6 0Z"/><path d="M7 16v6"/><path d="M13 19v3"/><path d="M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">ESCOLA ÁGUIA DOURADA - ZONA RURAL</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Solange Santana Santos (Diretora)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            Linha 108/ Km 65 Setor Asa Branca
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981401228" target="_blank">(69) 98140-1228</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:aguiadouradapb2021@hotmail.com">aguiadouradapb2021@hotmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569999885466" target="_blank">Nirlene Aparecida Cades - (69) 99988-5466</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <span>Linha 108/ Km 65 Setor Asa Branca</span>
+                        
+                        <div class="department-card" id="cmeiherbert">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-child"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>CMEI HERBERT JOSÉ DE SOUZA</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Luziene Alencar (Diretora)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981401228" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98140-1228</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:aguiadouradapb2021@hotmail.com" class="mail-link">
-                                    <span>aguiadouradapb2021@hotmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Solange Santana Santos - (69) 99298-9402</li>
-                                <li><strong>Vice-Diretora:</strong> Nirlene Aparecida Cades - (69) 99988-5466</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- CMEIs -->
-            <section id="cmei-herbert" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-baby"><path d="M9 12h.01"/><path d="M15 12h.01"/><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-1.8 3.9 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9-1.8 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9 1.8 2 2 0 0 1-3.6 0A9 9 0 0 1 2.2 13.8a2 2 0 0 1 0-3.6A9 9 0 0 1 4 6.3a2 2 0 0 1 3.6 0 9 9 0 0 1 3.9 1.8 2 2 0 0 1 3.6 0 9 9 0 0 1 3.9-1.8 2 2 0 0 1 3.6 0Z"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CMEI HERBERT JOSÉ DE SOUZA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Luziene Alencar (Diretora)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            Rua Cristóvão Colombo N°275 Bairro CTG
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981566374" target="_blank">(69) 98156-6374</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:crechebetinho@outlook.com">crechebetinho@outlook.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569999609108" target="_blank">Elenir Vieira - (69) 99960-9108</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Cristóvão+Colombo,+275,+CTG,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Cristóvão Colombo N°275 Bairro CTG</span>
-                                </a>
+                        
+                        <div class="department-card" id="cmeimariamadalena">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-child"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>CMEI MARIA MADALENA GONZAGA THOMAZ</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Maria Cleude de S. Araujo (Diretora)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981566374" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98156-6374</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:crechebetinho@outlook.com" class="mail-link">
-                                    <span>crechebetinho@outlook.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Luziene Alencar - (69) 99957-1882</li>
-                                <li><strong>Vice-Diretora:</strong> Elenir Vieira - (69) 99960-9108</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="cmei-maria-madalena" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-baby"><path d="M9 12h.01"/><path d="M15 12h.01"/><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-1.8 3.9 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9-1.8 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9 1.8 2 2 0 0 1-3.6 0A9 9 0 0 1 2.2 13.8a2 2 0 0 1 0-3.6A9 9 0 0 1 4 6.3a2 2 0 0 1 3.6 0 9 9 0 0 1 3.9 1.8 2 2 0 0 1 3.6 0 9 9 0 0 1 3.9-1.8 2 2 0 0 1 3.6 0Z"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CMEI MARIA MADALENA GONZAGA THOMAZ</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Maria Cleude de S. Araujo (Diretora)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://www.google.com/maps/place/CMEI.+Maria+Madalena+Gonzaga+Thomaz/@-11.6872324,-61.1644133,78m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5004c70a007:0x61eb8e9dc6e83e31!8m2!3d-11.6872609!4d-61.164222!16s%2Fg%2F11y3sw3v9w?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                                Av Curitiba Número 1316, Bairro Vila Nova
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981699974" target="_blank">(69) 98169-9974</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:cmei.mariamadalena@hotmail.com">cmei.mariamadalena@hotmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569999100555" target="_blank">Rosimeire Roque Jenuino Morett - (69) 99910-0555</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Av+Curitiba,+1316,+Vila+Nova,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Av Curitiba Número 1316, Bairro Vila Nova</span>
-                                </a>
+                        
+                        <div class="department-card" id="cmeimariaaparecida">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-child"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>CMEI MARIA APARECIDA GOMES</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Aparecida Gonçalves dos Santos (Diretora)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699974" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9974</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:cmei.mariamadalena@hotmail.com" class="mail-link">
-                                    <span>cmei.mariamadalena@hotmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Maria Cleude de S. Araujo - (69) 99973-6185</li>
-                                <li><strong>Vice-Diretora:</strong> Rosimeire Roque Jenuino Morett - (69) 99910-0555</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="cmei-maria-aparecida" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-baby"><path d="M9 12h.01"/><path d="M15 12h.01"/><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-1.8 3.9 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9-1.8 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9 1.8 2 2 0 0 1-3.6 0A9 9 0 0 1 2.2 13.8a2 2 0 0 1 0-3.6A9 9 0 0 1 4 6.3a2 2 0 0 1 3.6 0 9 9 0 0 1 3.9 1.8 2 2 0 0 1 3.6 0 9 9 0 0 1 3.9-1.8 2 2 0 0 1 3.6 0Z"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CMEI MARIA APARECIDA GOMES</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Aparecida Gonçalves dos Santos (Diretora)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://www.google.com/maps/place/CMEI+Prof%C2%AA+Maria+Aparecida+Gomes+(Cidinha)/@-11.6896911,-61.1690715,143m/data=!3m1!1e3!4m6!3m5!1s0x93b7e59d9143a643:0xcf988743d371d8c5!8m2!3d-11.6897058!4d-61.1687281!16s%2Fg%2F11rpfpbrpl?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                                Av: Odegar Maximiano/ Esquina Com Rua Padre Feijo, 1706 Bairro: Vila Nova
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981699976" target="_blank">(69) 98169-9976</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:coordenacaomag@gmail.com">coordenacaomag@gmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569999050610" target="_blank">Daele Rodrigues de Souza - (69) 99905-0610</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Av+Odegar+Maximiano,+1706,+Vila+Nova,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Av: Odegar Maximiano/ Esquina Com Rua Padre Feijo, 1706 Bairro: Vila Nova</span>
-                                </a>
+                        
+                        <div class="department-card" id="cmeijosepinheiro">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-child"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>CMEI JOSÉ PINHEIRO DE SOUZA</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Maria Apª. Bueno Borges (Diretora)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699976" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9976</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:coordenacaomag@gmail.com" class="mail-link">
-                                    <span>coordenacaomag@gmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Aparecida Gonçalves dos Santos - (69) 99938-1120</li>
-                                <li><strong>Vice-Diretora:</strong> Daele Rodrigues de Souza - (69) 99905-0610</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="cmei-jose-pinheiro" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-baby"><path d="M9 12h.01"/><path d="M15 12h.01"/><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-1.8 3.9 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9-1.8 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9 1.8 2 2 0 0 1-3.6 0A9 9 0 0 1 2.2 13.8a2 2 0 0 1 0-3.6A9 9 0 0 1 4 6.3a2 2 0 0 1 3.6 0 9 9 0 0 1 3.9 1.8 2 2 0 0 1 3.6 0 9 9 0 0 1 3.9-1.8 2 2 0 0 1 3.6 0Z"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CMEI JOSÉ PINHEIRO DE SOUZA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Maria Apª. Bueno Borges (Diretora)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://www.google.com/maps/@-11.6552073,-61.1952385,143m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                                Rua Tupã, N.35 Bela Vista
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981699967" target="_blank">(69) 98169-9967</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:cmeijp@hotmail.com">cmeijp@hotmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569999051551" target="_blank">Elengláucie de Oliveira Silva - (69) 99905-1551</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Tupã,+35,+Bela+Vista,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Tupã, N.35 Bela Vista</span>
-                                </a>
+                        
+                        <div class="department-card" id="cmeimariaclara">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-child"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>CMEI MARIA CLARA MACHADO</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Helena Maria Carvalho (Diretora)</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699967" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9967</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:cmeijp@hotmail.com" class="mail-link">
-                                    <span>cmeijp@hotmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Maria Apª. Bueno Borges - (69) 99912-0717</li>
-                                <li><strong>Vice-Diretora:</strong> Elengláucie de Oliveira Silva - (69) 99905-1551</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="cmei-maria-clara" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-baby"><path d="M9 12h.01"/><path d="M15 12h.01"/><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-1.8 3.9 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9-1.8 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9 1.8 2 2 0 0 1-3.6 0A9 9 0 0 1 2.2 13.8a2 2 0 0 1 0-3.6A9 9 0 0 1 4 6.3a2 2 0 0 1 3.6 0 9 9 0 0 1 3.9 1.8 2 2 0 0 1 3.6 0 9 9 0 0 1 3.9-1.8 2 2 0 0 1 3.6 0Z"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CMEI MARIA CLARA MACHADO</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Helena Maria Carvalho (Diretora)</span>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://www.google.com/maps/place/creche+maria+clara+machado/@-11.6689047,-61.199151,104m/data=!3m1!1e3!4m6!3m5!1s0x93b7e69b7eec527b:0x2d45f33ff1274e8!8m2!3d-11.6688116!4d-61.1990595!16s%2Fg%2F11clhpzds8?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                                Av. Pimenta Bueno, 263; Bairro- Jardim Das Oliveiras
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981027877" target="_blank">(69) 98102-7877</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:cmeimariaclara@hotmail.com">cmeimariaclara@hotmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569999848404" target="_blank">Regina Ditós - (69) 99984-8404</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Av.+Pimenta+Bueno,+263,+Jardim+Das+Oliveiras,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Av. Pimenta Bueno, 263; Bairro- Jardim Das Oliveiras</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981027877" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98102-7877</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:cmeimariaclara@hotmail.com" class="mail-link">
-                                    <span>cmeimariaclara@hotmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Helena Maria Carvalho - (69) 99914-4905</li>
-                                <li><strong>Vice-Diretora:</strong> Regina Ditós - (69) 99984-8404</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="cmei-alto-itaporanga" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-baby"><path d="M9 12h.01"/><path d="M15 12h.01"/><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-1.8 3.9 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9-1.8 2 2 0 0 1-3.6 0 9 9 0 0 1-3.9 1.8 2 2 0 0 1-3.6 0A9 9 0 0 1 2.2 13.8a2 2 0 0 1 0-3.6A9 9 0 0 1 4 6.3a2 2 0 0 1 3.6 0 9 9 0 0 1 3.9 1.8 2 2 0 0 1 3.6 0 9 9 0 0 1 3.9-1.8 2 2 0 0 1 3.6 0Z"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CMEI ALTO ITAPORANGA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Maria Antonia Favaleça (Diretora)</span>
+                        
+                        <div class="department-card" id="cmeialtoitaporanga">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-child"></i>
+                                </div>
+                                <div class="card-title">
+                                    <h3>CMEI ALTO ITAPORANGA</h3>
+                                    <div class="card-director">
+                                        <i class="fas fa-user"></i>
+                                        <span>Maria Antonia Favaleça (Diretora)</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Maria+Rigo+Ferreira,+140,+Distrito+Itaporanga,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                                    <span>Rua Maria Rigo Ferreira Número 140 Distrito Itaporanga</span>
-                                </a>
+                            <div class="card-content">
+                                <div class="contact-info-card">
+                                    <div class="contact-item">
+                                        <div class="contact-label">Endereço:</div>
+                                        <div class="contact-value-card">
+                                            Rua Maria Rigo Ferreira Número 140 Distrito Itaporanga
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">WhatsApp:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569981430538" target="_blank">(69) 98143-0538</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">E-mail:</div>
+                                        <div class="contact-value-card">
+                                            <a href="mailto:escolaitaporanga@hotmail.com">escolaitaporanga@hotmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-label">Vice-Diretora:</div>
+                                        <div class="contact-value-card">
+                                            <a href="https://wa.me/5569993420065" target="_blank">Olávia Aparecida da Silva - (69) 99342-0065</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981430538" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98143-0538</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:escolaitaporanga@hotmail.com" class="mail-link">
-                                    <span>escolaitaporanga@hotmail.com</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Responsáveis:</h4>
-                            <ul class="competencies-list">
-                                <li><strong>Diretora:</strong> Maria Antonia Favaleça - (69) 99603-2904</li>
-                                <li><strong>Vice-Diretora:</strong> Olávia Aparecida da Silva - (69) 99342-0065</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
     </main>
-
+    
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-left">
-                    <div class="footer-title">
-                        <div class="footer-icon">
-                            <img src="assets/images/brasao.png" alt="Brasão da Prefeitura" style="width: 2rem; height: 2rem;">
-                        </div>
-                        <div>
-                            <h3>Prefeitura de Pimenta Bueno</h3>
-                            <p>SEMED - Secretaria Municipal de Educação</p>
-                        </div>
-                    </div>
+                <div class="footer-logo">
+                    <img src="assets/images/brasao.png" alt="Brasão de Pimenta Bueno">
+                    <h3>Prefeitura de Pimenta Bueno</h3>
+                    <p>Serviços Municipais</p>
                 </div>
                 
-                <div class="footer-right">
-                    <div class="footer-contact">
-                        <i data-lucide="map-pin"></i>
-                        <a href="https://www.google.com/maps/search/?api=1&query=Rua+Casemiro+de+Abreu,+237,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
-                            <span>Rua Casemiro de Abreu, 237 - Pimenta Bueno–RO</span>
-                        </a>
+                <div class="footer-contact-info">
+                    <h4 class="footer-contact-title">Contato</h4>
+                    <div class="contact-item">
+                        <div class="contact-label">Endereço:</div>
+                        <div class="contact-value-card">
+                            <a href="http://googleusercontent.com/maps.google.com/8" target="_blank">
+                                Av. Castelo Branco, 1046 - Pimenta Bueno–RO
+                            </a>
+                        </div>
                     </div>
                     
-                    <div class="footer-contact">
-                        <a href="https://wa.me/5569981135883" target="_blank" class="whatsapp-link">
-                            <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                            <span>(69) 98113-5883</span>
-                        </a>
+                    <div class="contact-item">
+                        <div class="contact-label">Telefone:</div>
+                        <div class="contact-value-card">
+                            <a href="https://wa.me/5569981162254" target="_blank">(69) 98116-2254 (Atendimento)</a><br>
+                            <a href="https://wa.me/5569981699989" target="_blank">(69) 98169-9989 (Ouvidoria)</a>
+                        </div>
                     </div>
                     
-                    <div class="footer-contact">
-                        <i data-lucide="mail"></i>
-                        <a href="mailto:semed@pimentabueno.ro.gov.br" class="mail-link">
-                            <span>semed@pimentabueno.ro.gov.br</span>
-                        </a>
+                    <div class="contact-item">
+                        <div class="contact-label">E-mail:</div>
+                        <div class="contact-value-card">
+                            <a href="mailto:gabinete@pimentabueno.ro.gov.br">gabinete@pimentabueno.ro.gov.br</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1201,7 +1120,45 @@
             </div>
         </div>
     </footer>
-
+    
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="mobile-menu-title">Departamentos</div>
+            <button class="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="mobile-nav">
+            <button class="mobile-nav-btn active" data-target="semed">SEMED</button>
+            <button class="mobile-nav-btn" data-target="central-pedagogica">Central Pedagógica</button>
+            <button class="mobile-nav-btn" data-target="central-administrativa">Central Administrativa</button>
+            <button class="mobile-nav-btn" data-target="alimentacao-escolar">Alimentação Escolar</button>
+            <button class="mobile-nav-btn" data-target="transporte-escolar">Transporte Escolar</button>
+            <button class="mobile-nav-btn" data-target="escolalairce">Lairce Santiago Maina</button>
+            <button class="mobile-nav-btn" data-target="escolanairbarros">Nair Barros</button>
+            <button class="mobile-nav-btn" data-target="escolacrivelli">Mª da Conceição Crivelli</button>
+            <button class="mobile-nav-btn" data-target="escolamariaescobar">Maria José Escobar</button>
+            <button class="mobile-nav-btn" data-target="escolasandovalmeira">Sandoval Meira</button>
+            <button class="mobile-nav-btn" data-target="escolaassunta">Assunta Maria Gianini</button>
+            <button class="mobile-nav-btn" data-target="escolaluizcabral">Luiz Cabral de Souza</button>
+            <button class="mobile-nav-btn" data-target="escolaemanuel">Emanuel Osvaldo Moreira</button>
+            <button class="mobile-nav-btn" data-target="escolaaguiadourada">Águia Dourada</button>
+            <button class="mobile-nav-btn" data-target="cmeiherbert">Herbert José de Souza</button>
+            <button class="mobile-nav-btn" data-target="cmeimariamadalena">Maria Madalena</button>
+            <button class="mobile-nav-btn" data-target="cmeimariaaparecida">Maria Aparecida Gomes</button>
+            <button class="mobile-nav-btn" data-target="cmeijosepinheiro">José Pinheiro de Souza</button>
+            <button class="mobile-nav-btn" data-target="cmeimariaclara">Maria Clara Machado</button>
+            <button class="mobile-nav-btn" data-target="cmeialtoitaporanga">Alto Itaporanga</button>
+        </div>
+    </div>
+    
+    <div class="overlay"></div>
+    
     <script src="script.js"></script>
 </body>
 </html>
